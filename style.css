@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #F5F7FB;
+}
+
+.front-page {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+}
+
+.front-title {
+    margin-top: 150px;
+    padding: 1px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.front-desc {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+    letter-spacing: 0.35px;
+}
+
+.start-button {
+    font-family: "Inter", sans-serif;
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    padding: 10px 35px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 500px;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 200px;
+    position: relative;
+    cursor: pointer;
+}
+
+.main-questionbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: left;
+    margin: auto;
+    max-width: 800px;
+    max-height: 200px;
+}
+
+.questions {
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #293264;
+    margin: 10px;
+}
+
+.choices-box {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin-top: 3px;
+    padding: 0px 0px 15px 0px;
+    border-bottom-style: solid;
+    border-spacing: 10px;
+    border-color: #DBDEF0;
+    transform: rotate(-0.05deg);
+}
+
+.choices {
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 9px;
+    border: 0.8px solid #4D5B9E;
+    border-radius: 8px;
+    background-color: #F5F7FB;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    color: #293264;
+    width: 200px;
+    padding: 5px 6px 5px 6px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.choices-choosen {
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 9px;
+    border: #F5F7FB;
+    border-radius: 8px;
+    background-color: #D6DBF5;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    color: #293264;
+    width: 200px;
+    padding: 5px 6px 5px 6px;
+    font-size: 12px;
+}
+
+.choices-chosencorrectly {
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 9px;
+    border: #94D7A2;
+    border-radius: 8px;
+    background-color: #94D7A2;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    color: #293264;
+    width: 200px;
+    padding: 5px 6px 5px 6px;
+    font-size: 12px;
+}
+
+.choices-chosewrong {
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 9px;
+    border: 0.8px solid #4D5B9E;
+    border-radius: 8px;
+    background-color: #F8BCBC;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    color: #293264;
+    width: 200px;
+    padding: 5px 6px 5px 6px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.choices-ghost {
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 9px;
+    border: 0.8px solid #4D5B9E;
+    border-radius: 8px;
+    background-color: #F5F7FB;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    color: #293264;
+    width: 200px;
+    padding: 5px 6px 5px 6px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.check-button{
+    position: relative;
+    font-family: "Inter", sans-serif;
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    padding: 13px 30px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 500px;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.finish-line {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px 10px 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.score-line {
+    margin-right: 50px;
+    font-size: 14px;
+}
+
+.play-again-button {
+    width: 150px;
+    font-family: "Inter", sans-serif;
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    padding: 13px 30px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 500px;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.top {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 18px;
+}
+
+.big-bottom {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 18px;
+}
+
+.small-bottom {
+    width: 210px;
+    height: 110px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 18px;
+}
